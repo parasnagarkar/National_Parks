@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">National_Parks</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="map">Map</string>
+    <string name="parks">Parks</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Details_Designation">Description :-</string>
+    <string name="InfoError">Information Not Available</string>
+    <string name="Directons_Error">Directions Not Available</string>
+    <string name="hint_search">Enter State Code like: WA,OR,NY</string>
+</resources>

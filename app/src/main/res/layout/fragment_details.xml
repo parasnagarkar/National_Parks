@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Fragment_Details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".DetailsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:paddingBottom="32dp">
+
+        <LinearLayout
+            style="@style/subTopicsStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Details_Park_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/carter_one"
+                android:gravity="center"
+                android:text="Name"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Details_Park_Designation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Designation" />
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/Details_ViewPager"
+                android:layout_width="match_parent"
+                android:layout_height="225dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/Designation"
+                style="@style/subTopicsStyle"
+                android:fontFamily="@font/carter_one"
+                android:text="@string/Details_Designation" />
+
+            <TextView
+                android:id="@+id/Details_Description_Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/Activities"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/carter_one"
+                android:text="Activities"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Details_Activities_Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/Topics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/carter_one"
+                android:text=" Topics :-."
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Detaiils_Topic_Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/EnteranceFees"
+                style="@style/subTopicsStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/carter_one"
+                android:text="Enterance Fees :-" />
+
+            <TextView
+                android:id="@+id/Details_Enterance_Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/Operating_Hour"
+                style="@style/subTopicsStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/carter_one"
+                android:text="Operating Hours  :-" />
+
+            <TextView
+                android:id="@+id/Details_Operating_House_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/Directions"
+                style="@style/subTopicsStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/carter_one"
+                android:text="Directions :-" />
+
+            <TextView
+                android:id="@+id/Details_Direction_Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
